@@ -1,0 +1,78 @@
+body{
+    background-image: url("images/background/red-background.jpg");
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.info-button{
+    text-align: right;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.header{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    align-content: start;
+    justify-content: space-around;
+}
+
+
+
+.logo{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo-text{
+   text-align: center;
+   margin-top: 0;
+}
+
+.bottom-text{
+    text-align: center;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+    .link{
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    .logo{
+        margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    .header{
+        margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    .bottom-text{
+        margin-top: 110px;
+    }
+    }
