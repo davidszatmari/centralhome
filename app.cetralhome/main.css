@@ -15,6 +15,44 @@ body{
     padding-right: 25px;
 }
 
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #540010;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+  }
+
+.close-boton{
+    text-align: right;
+}
+
+.popup-title{
+    text-align: center;
+    font-size: 28px;
+}
+
+.popup-text{
+    text-align: center;
+}
+
+.popup-bold{
+    font-weight: bold;
+}
+
 .header{
     padding-left: 50px;
     padding-right: 50px;
