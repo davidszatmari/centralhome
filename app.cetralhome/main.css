@@ -5,7 +5,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     overflow: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
 }
 
@@ -18,9 +18,9 @@ body{
 .header{
     padding-left: 50px;
     padding-right: 50px;
-    font-weight: bold;
+    font-weight: 800;
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -28,13 +28,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 100px;
     align-content: start;
     justify-content: space-around;
 }
-
-
 
 .logo{
     display: flex;
@@ -46,33 +44,46 @@ body{
 .logo-text{
    text-align: center;
    margin-top: 0;
+   font-size: 17px;
 }
 
 .bottom-text{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
+
+.icon{
+    height: 150px;
+    width: 150px;
+}
+
+
+
 
 @media only screen and (max-width: 800px) {
     .link{
-    margin-top: 100px;
-    margin-bottom: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+        margin-top: 100px;
+        margin-bottom: auto;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .logo{
         margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+        margin-bottom: auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .header{
         margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 5px;
-    margin-right: 5px;
+        margin-bottom: auto;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .bottom-text{
         margin-top: 110px;
+    }
+    .icon{
+        height: fit-content;
+        width: fit-content;
     }
     }
