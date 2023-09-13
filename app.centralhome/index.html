@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <title>Central Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&display=swap" rel="stylesheet">
+        <script defer src="script.js"></script>
+    </head>
+        <body>
+            <div class="info-button">
+                <img src="images/icons/info_icon.svg" onclick="openPopup()">
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                  <div class="close-boton">
+                    <img src="images/icons/close_icon.svg" onclick="closePopup()">
+                  </div>
+                  <div>
+                    <p class="popup-title">Beállítás a kezdőképernyőre</p>
+                  </div>
+                <div class="popup-text">
+                    <p class="popup-bold">iPhone (Safari iOS):</p>
+                        Válaszd ki a böngésző "megosztás" menüpontját. A megjelenő popupban a "Hozzáadás a képernyőhöz" gomb megnyomása után a készüléken létrejön egy parancsikon, a főoldalon. Ezentúl az alkalmazás megnyitása innen is elérhető.
+                        
+                    <p class="popup-bold">Android (Alapértelmezett böngésző):</p>
+                        Válaszd ki a könyvjelzőkhöz adás funkciót. A kijelző alján megjelenik egy visszajelző szöveg a sikeres műveletről. Emellett a szöveg mellett van egy szerkesztés opció, amire rá nyomva ki lehet válsztani a kezdő képernyőhöz adás lehetőséget. A megjelenő popupban a "Hozzáadás a képernyőhöz" gomb megnyomása után a készüléken létrejön egy parancsikon, a főoldalon. Ezentúl az alkalmazás megnyitásainnen is elérhető.
+                        
+                    <p class="popup-bold">Android (Chrome böngésző):</p>
+                        Válaszd ki a böngésző 3 pontos menüjében a "Kezdőképernyőre" opciót. A megjelenő popupban a "Hozzáadás" gomb megnyomása után a készüléken létrejön egy parancsikon, a főoldalon. Ezentúl az alkalmazás megnyitása innen is elérhető.
+                        
+                    <p class="popup-bold">Android (Firefox böngésző):</p>
+                        Válaszd ki a böngésző három pontos menüjében az "Oldal" opción belül, a "lap ikon hozzáadás" lehetőséget. A megjelenő popupban a "Hozzáadás" gomb megnyomása után a készüléken létrejön egy parancsikon, a főoldalon. Ezentúl az alkalmazás megnyitása innen is elérhető.
+                  </div>
+                  <div class="popup-bottom"></div>
+                </div>
+              </div>
+
+            <div class="header">
+                <p>Szia!</p>
+                <p>Válassz az alábbi menüpontok közül:</p>
+            </div>
+            <div class="container">
+                <div><a class="logo" target="_blank" href="https://newadmin.centralhome.hu/">
+                    <img src="images/icons/database_icon.svg" class="icon">
+                </a>
+                    <p class="logo-text">Adatbázis</p></div>
+
+                <div><a class="logo" target="_blank" href="https://chmail.centralhome.hu/">
+                    <img src="images/icons/email_icon.svg" class="icon">
+                </a>
+                    <p class="logo-text">E-mail</p></div>
+
+                <div><a class="logo" target="_blank" href="https://chmail.centralhome.hu/?_task=xcalendar">
+                    <img src="images/icons/calendar_icon.svg" class="icon">
+                </a>
+                    <p class="logo-text">Naptár</p></div>
+
+                <div><a class="logo" target="_blank" href="https://www.centralhome.hu/">
+                    <img src="images/icons/website_icon.svg" class="icon">
+                </a>
+                    <p class="logo-text">Weboldal</p></div>
+
+                <div><a class="logo" target="_blank" href="https://drive.centralhome.hu/s/2YQNLMf9tdwZfqj">
+                    <img src="images/icons/cimlista_icon copy.png" class="icon">
+                </a>
+                    <p class="logo-text">Címlista</p></div>
+            </div>
+            <div class="bottom-text">
+                <p>Sikeresen, együtt!</p>
+            </div>
+        </body>
+</html>
