@@ -11,3 +11,9 @@ function closePopup() {
   popup.style.display = "none";
   body.classList.remove("popup-open");
 }
+
+var hasShownPopup = localStorage.getItem("hasShownPopup");
+if (!hasShownPopup) {
+  openPopup();
+  localStorage.setItem("hasShownPopup", "true");
+}
