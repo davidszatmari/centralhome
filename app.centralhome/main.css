@@ -154,8 +154,12 @@ body.popup-open {
     }
     .popup-content {
         max-width: 90%;
+        min-width: 77%;
     }
     .popup-text{
         font-size: 13px;
+    }
+    .logo-text{
+        margin-bottom: 50px;
     }
     }
