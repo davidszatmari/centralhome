@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   viewBox="0 0 244.8 244.80001"
+   viewBox="0 0 112 112"
    version="1.1"
    id="svg18"
    sodipodi:docname="Cimlista_ikon.f4f4cc0d2.svg"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
-   width="244.8"
-   height="244.8"
+   width="112"
+   height="112"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -22,7 +22,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.0404003"
-     inkscape:cx="46.559492"
+     inkscape:cx="46.559491"
      inkscape:cy="125.22053"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -204,7 +204,8 @@
   </defs>
   <g
      class="cls-1"
-     id="g18">
+     id="g18"
+     transform="scale(0.45751634)">
     <g
        id="Címlista_ikon"
        data-name="Címlista ikon">
