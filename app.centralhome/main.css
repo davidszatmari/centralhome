@@ -163,3 +163,40 @@ body.popup-open {
         margin-bottom: 50px;
     }
     }
+
+@media only screen and (max-width: 700px) {
+    .icon{
+        width: 93.75px;
+        height: 93.75px;
+    }
+
+    .logo{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .container{
+        margin-top: 50px;
+    }
+
+    .header{
+        font-size: 16px;
+    }
+
+    .logo-text{
+        font-size: 14px;
+    }
+
+    .bottom-text{
+        font-size: 14px;
+    }
+    }
+
+@media only screen and (max-width: 1000px) {
+    .logo{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    }
