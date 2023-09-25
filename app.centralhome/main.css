@@ -163,6 +163,9 @@ body.popup-open {
     .logo-text{
         margin-bottom: 50px;
     }
+    .header{
+        padding: 0px;
+    }
     }
 
 @media only screen and (max-width: 700px) {
@@ -193,6 +196,9 @@ body.popup-open {
     .bottom-text{
         font-size: 14px;
     }
+    .header{
+        padding: 0px;
+    }
     }
 
 @media only screen and (max-width: 1000px) {
@@ -201,3 +207,15 @@ body.popup-open {
         margin-right: 25px;
     }
     }
+
+
+@media only screen and (max-width: 400px) {
+    .bottom-text{
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .header{
+        padding: 0px;
+    }
+    }
+    
