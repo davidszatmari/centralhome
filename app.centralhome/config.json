@@ -1,0 +1,36 @@
+{
+    "adatok": [
+        {
+            "id": "1",
+            "image": "static/media/database_icon.62c59689.svg",
+            "link": "https://newadmin.centralhome.hu/",
+            "text": "Adatbázis"
+        },
+        {
+            "id": "2",
+            "image": "static/media/email_icon.a5152919.svg",
+            "link": "https://chmail.centralhome.hu/",
+            "text": "E-mail"
+        },
+        {
+            "id": "3",
+            "image": "static/media/calendar_icon.c8948a3b.svg",
+            "link": "https://chmail.centralhome.hu/?_task=xcalendar",
+            "text": "Naptár"
+        },
+        {
+            "id": "4",
+            "image": "static/media/website_icon.721bb9b4.svg",
+            "link": "https://www.centralhome.hu/",
+            "text": "Weboldal"
+        },
+        {
+            "id": "5",
+            "image": "static/media/Cimlista_ikon.f4f4cc0d_2.svg",
+            "link": "https://drive.centralhome.hu/s/2YQNLMf9tdwZfqj",
+            "text": "Címlista"
+        }
+        
+
+    ]
+}
