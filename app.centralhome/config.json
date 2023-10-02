@@ -29,7 +29,26 @@
             "image": "static/media/Cimlista_ikon.f4f4cc0d_2.svg",
             "link": "https://drive.centralhome.hu/s/2YQNLMf9tdwZfqj",
             "text": "Címlista"
+        },
+        {
+            "id": "none",
+            "image": "",
+            "link": "",
+            "text": ""
+        },
+        {
+            "id": "none",
+            "image": "",
+            "link": "",
+            "text": ""
+        },
+        {
+            "id": "none",
+            "image": "",
+            "link": "",
+            "text": ""
         }
+
         
 
     ]
