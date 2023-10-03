@@ -25,7 +25,7 @@ async function fetchAndDisplayJson() {
 
         adatok.forEach(item => {
             const div = document.createElement('div');
-            div.classList.add(`id-${item.id}`); // Add item.id as a class
+            div.classList.add(`id-${item.id}`);
             div.innerHTML = `
                 <a class="logo" target="_blank" href="${item.link}">
                 <img class="icon" src="${item.image}">
