@@ -27,7 +27,7 @@ async function fetchAndDisplayJson() {
             const div = document.createElement('div');
             div.classList.add(`id-${item.id}`);
             div.innerHTML = `
-                <a class="logo" target="_blank" href="${item.link}">
+                <a class="logo" href="${item.link}" onclick="window.open('${item.link}'); return false;">
                 <img class="icon" src="${item.image}">
                 </a>
                 <p class="logo-text">${item.text}</p>

@@ -17,9 +17,3 @@ if (!hasShownPopup) {
   openPopup();
   localStorage.setItem("hasShownPopup", "true");
 }
-
-if (window.matchMedia('(display-mode: standalone)').matches) { 
-  document.querySelectorAll('a[target=_blank]').forEach(function(a) {
-     a.removeAttribute('target');
-  });
-}
